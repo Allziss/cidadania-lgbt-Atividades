@@ -1,0 +1,37 @@
+programa 
+{
+	funcao inicio()
+	{
+	real a,b,c,d,f,g,x,y
+    
+	escreva("\nValor de A:")
+	leia(a)
+	
+	escreva("\nValor de B:")
+	leia(b)
+	
+	escreva("\nValor de C:")
+	leia(c)
+	
+	escreva("\nValor de D:")
+	leia(d)
+	
+	escreva("\nValor de F:")
+	leia(f)
+	
+	escreva("\nValor de G:")
+	leia(g)
+	
+	
+	x = c*g-b*f / a*g-b*a
+	
+	y = a*f-c*d / a*g-b*d
+
+    escreva("\nValor de X:", x)
+	leia(x)
+	
+	escreva("\nValor de Y", y)
+	leia(y)
+		
+	}
+}

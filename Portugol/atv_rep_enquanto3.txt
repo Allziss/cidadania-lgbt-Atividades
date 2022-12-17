@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num=1, soma=0, media, total=0
+
+		enquanto(num>0)
+		{
+			escreva ("\nDigite um número: ") 
+			leia(num)
+
+			se (num>0)
+			{
+				soma = soma + num
+				total = total + 1
+				
+			}
+			
+		}
+		media = soma / total
+		escreva("\nO total da soma dos número será de ", soma)
+		escreva ("\nA média será: " ,media)
+		escreva("\nTotal de valored lidos: ", media)
+
+		
+	}
+}

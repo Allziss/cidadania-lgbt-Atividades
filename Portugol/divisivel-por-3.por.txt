@@ -1,0 +1,25 @@
+programa
+{
+  
+  funcao inicio()
+  {
+    
+   inteiro numero
+
+   escreva("Digite o número aqui:")
+   leia(numero)
+
+     se(numero%3==0)
+
+    escreva("\nEsse número é divisível por 3")
+
+     senao
+
+      escreva("\nEsse número não é divisível por 3")
+
+  }
+
+}
+
+     
+

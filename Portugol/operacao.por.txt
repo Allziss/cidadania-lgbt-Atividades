@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero, numero2, num, s,d,m
+		
+		escreva("Digite um número: ")
+		leia (numero)
+		
+		escreva("Digite outro número: ")
+		leia(numero2) 
+		
+		escreva("\nEscolha uma operação sendo 1 = +, 2 = -, 3 = * : ")
+		leia(num)
+		
+		
+	    s = numero+numero2
+        
+		m = numero*numero2
+
+        d = numero-numero2
+		
+		
+		
+		
+		escolha (num) 
+		{
+			caso 1:
+				(escreva("\nA soma é",  s ))
+				pare
+			
+			caso 2:
+				(escreva("\nA multiplicação é", d))
+				pare
+			
+			caso 3:
+				escreva("\nA diminuição é", m) 
+				pare
+			
+			
+			caso contrario:
+				escreva("Opção inválida")
+			
+		}
+	}
+}
